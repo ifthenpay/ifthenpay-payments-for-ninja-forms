@@ -1,0 +1,807 @@
+# Copyright (C) 2026 ifthenpay
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ifthenpay | Payments for Ninja Forms 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ifthenpay-payments-for-ninja-forms\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-13T08:57:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ifthenpay-payments-for-ninja-forms\n"
+
+#. Plugin Name of the plugin
+#: ifthenpay-payments-for-ninja-forms.php
+msgid "ifthenpay | Payments for Ninja Forms"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: ifthenpay-payments-for-ninja-forms.php
+msgid "https://github.com/vPereira04/ifthenpay-payments-for-ninja-forms"
+msgstr ""
+
+#. Description of the plugin
+#: ifthenpay-payments-for-ninja-forms.php
+msgid "Accept ifthenpay payments (Multibanco, MB WAY, Payshop, Pix, Credit Card and more) in Ninja Forms via Pay by Link, with webhook-confirmed payment status."
+msgstr ""
+
+#. Author of the plugin
+#: ifthenpay-payments-for-ninja-forms.php
+#: src/Admin/ConfirmationPage.php:65
+#: src/Admin/SettingsPage.php:75
+msgid "ifthenpay"
+msgstr ""
+
+#. Author URI of the plugin
+#: ifthenpay-payments-for-ninja-forms.php
+msgid "https://ifthenpay.com"
+msgstr ""
+
+#: ifthenpay-payments-for-ninja-forms.php:51
+#: ifthenpay-payments-for-ninja-forms.php:87
+msgid "ifthenpay Payments for Ninja Forms requires Ninja Forms to be installed and active."
+msgstr ""
+
+#: ifthenpay-payments-for-ninja-forms.php:67
+msgid "ifthenpay Payments for Ninja Forms could not load its classes. Run \"composer install\" in the plugin folder."
+msgstr ""
+
+#: ifthenpay-payments-for-ninja-forms.php:88
+msgid "Plugin dependency missing"
+msgstr ""
+
+#: src/Admin/AdminFooter.php:43
+msgid "Please rate us ★★★★★ on WordPress.org!"
+msgstr ""
+
+#: src/Admin/AdminFooter.php:54
+msgid "Powered by"
+msgstr ""
+
+#. translators: %s: plugin version number, e.g. "1.0.0"
+#: src/Admin/AdminFooter.php:67
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:51
+#: src/Admin/ConfirmationPage.php:153
+msgid "Confirmation Type"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:89
+#: src/Admin/SettingsPage.php:102
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:119
+msgid "— Select a page —"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:130
+msgid "Choose what a customer sees right after checkout, for every payment outcome."
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:136
+#: src/Admin/ConfirmationPage.php:151
+#: src/Admin/EntriesPage.php:768
+#: src/Admin/EntriesPage.php:1647
+msgid "Paid"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:139
+#: src/Admin/ConfirmationPage.php:219
+#: src/Admin/EntriesPage.php:767
+#: src/Admin/EntriesPage.php:1648
+msgid "Pending"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:142
+#: src/Admin/ConfirmationPage.php:233
+#: src/Admin/EntriesPage.php:769
+#: src/Admin/EntriesPage.php:1651
+msgid "Failed"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:145
+#: src/Admin/ConfirmationPage.php:247
+msgid "Cancelled"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:157
+msgid "Popup message"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:158
+msgid "WordPress page"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:159
+msgid "Custom URL"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:180
+#: src/Admin/ConfirmationPage.php:221
+#: src/Admin/ConfirmationPage.php:235
+#: src/Admin/ConfirmationPage.php:249
+#: src/Admin/ConfirmationPage.php:335
+msgid "Popup Message"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:196
+msgid "Show Entry Data"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:201
+msgid "Redirect Page"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:206
+msgid "Redirect URL"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:263
+#: src/Admin/SettingsPage.php:207
+msgid "Save Settings"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:266
+#: src/Admin/SettingsPage.php:210
+msgid "Saved"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:285
+msgid "Popup Title"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:301
+msgid "Show title"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:319
+msgid "Normal"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:322
+msgid "Raw"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:325
+msgid "Bold"
+msgstr ""
+
+#: src/Admin/ConfirmationPage.php:326
+msgid "Italic"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:102
+#: src/Admin/EntriesPage.php:103
+#: src/Admin/EntriesPage.php:550
+msgid "ifthenpay Entries"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:128
+msgid "Mark as paid"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:129
+msgid "Mark as pending"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:130
+msgid "Mark as failed"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:131
+msgid "Mark as expired"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:132
+#: src/Admin/EntriesPage.php:137
+#: src/Admin/EntriesPage.php:1170
+msgid "Delete"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:135
+msgid "Delete selected entries?"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:136
+msgid "This only removes their payment-tracking record here — the real Ninja Forms submissions (if any) are left untouched."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:138
+msgid "Change status?"
+msgstr ""
+
+#. translators: %s: target status label, e.g. "Paid"
+#: src/Admin/EntriesPage.php:140
+#, php-format
+msgid "Mark the selected entries as \"%s\"."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:141
+msgid "Change status"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:142
+msgid "Could not delete the selected entries. Please try again."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:143
+msgid "Could not update the selected entries. Please try again."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:144
+msgid "Selected entries deleted."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:145
+msgid "Selected entries updated."
+msgstr ""
+
+#. translators: 1: number of selected entries, 2: total number of entries
+#: src/Admin/EntriesPage.php:147
+#, php-format
+msgid "%1$s selected out of %2$s"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:148
+msgid "Previous month"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:149
+msgid "Next month"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:150
+msgid "Today"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:151
+msgid "Clear"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:152
+msgid "Reset to default"
+msgstr ""
+
+#. translators: %s: column label, e.g. "Customer"
+#: src/Admin/EntriesPage.php:154
+#, php-format
+msgid "Drag to reorder %s"
+msgstr ""
+
+#. translators: %s: column label, e.g. "Customer"
+#: src/Admin/EntriesPage.php:156
+#, php-format
+msgid "Show or hide %s"
+msgstr ""
+
+#. translators: %s: column label, e.g. "ID"
+#: src/Admin/EntriesPage.php:158
+#, php-format
+msgid "%s always stays in place"
+msgstr ""
+
+#. translators: %s: column label, e.g. "Amount"
+#: src/Admin/EntriesPage.php:160
+#, php-format
+msgid "%s is always shown"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:161
+msgid "Creating…"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:162
+msgid "Payment recorded."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:163
+msgid "Could not record the payment. Please try again."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:183
+msgid "Toggle ninja"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:300
+msgid "Enter an amount greater than zero."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:306
+msgid "Enter a valid email, or leave it blank."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:319
+#: src/Admin/EntriesPage.php:419
+msgid "Unknown status."
+msgstr ""
+
+#. translators: %s: the database error
+#: src/Admin/EntriesPage.php:336
+#, php-format
+msgid "Could not save the payment: %s"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:337
+msgid "unknown database error"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:484
+#: src/Ajax/Controller.php:233
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:552
+msgid "Every ifthenpay payment attempt on this site, whether or not it was confirmed."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:577
+msgid "All forms"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:585
+#: src/Admin/EntriesPage.php:592
+msgid "From date"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:595
+#: src/Admin/EntriesPage.php:602
+msgid "To date"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:611
+msgid "Search…"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:617
+msgid "Entries per page"
+msgstr ""
+
+#. translators: %d: number of entries per page
+#: src/Admin/EntriesPage.php:624
+#, php-format
+msgid "%d per page"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:631
+msgid "Custom…"
+msgstr ""
+
+#. translators: %d: maximum number of entries per page allowed
+#: src/Admin/EntriesPage.php:637
+#, php-format
+msgid "Custom per page (max %d)"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:647
+msgid "Custom"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:654
+msgid "Filter"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:655
+msgid "Reset filters"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:666
+msgid "Actions"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:678
+#: src/Admin/EntriesPage.php:683
+#: src/Admin/EntriesPage.php:776
+msgid "New payment"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:699
+msgid "Columns"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:707
+msgid "Loading…"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:713
+msgid "Select all"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:715
+#: src/Admin/EntriesPage.php:1670
+msgid "ID"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:716
+#: src/Admin/EntriesPage.php:1671
+msgid "Customer"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:717
+#: src/Admin/EntriesPage.php:1672
+msgid "Form"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:718
+#: src/Admin/EntriesPage.php:1673
+#: src/Admin/GatewaySettingsField.php:46
+msgid "Method"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:719
+#: src/Admin/EntriesPage.php:1674
+msgid "Submission ID"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:720
+#: src/Admin/EntriesPage.php:795
+#: src/Admin/EntriesPage.php:1675
+msgid "Amount"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:721
+#: src/Admin/EntriesPage.php:799
+#: src/Admin/EntriesPage.php:1676
+#: src/Admin/GatewaySettingsField.php:48
+msgid "Status"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:722
+#: src/Admin/EntriesPage.php:1269
+#: src/Admin/EntriesPage.php:1677
+msgid "Payment Link"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:723
+#: src/Admin/EntriesPage.php:1678
+msgid "Date"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:739
+#: src/Admin/EntriesPage.php:810
+#: src/Admin/EntriesPage.php:837
+msgid "Cancel"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:770
+#: src/Admin/EntriesPage.php:1652
+msgid "Expired"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:777
+msgid "Record a payment taken outside the normal checkout — it appears in the list under \"Ad Hoc Payments\", like any other entry."
+msgstr ""
+
+#: src/Admin/EntriesPage.php:784
+msgid "Customer name"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:788
+msgid "Customer email"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:813
+msgid "Create"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:885
+msgid "No ifthenpay payments match this view."
+msgstr ""
+
+#. translators: 1: first entry number shown, 2: last entry number shown, 3: total number of entries
+#: src/Admin/EntriesPage.php:912
+#, php-format
+msgid "%1$d - %2$d out of %3$d"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:951
+msgid "Entries pagination"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:952
+msgid "Previous page"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:956
+msgid "Page 1"
+msgstr ""
+
+#. translators: %d: page number
+#: src/Admin/EntriesPage.php:972
+#: src/Admin/EntriesPage.php:999
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:988
+msgid "Type a page number and press Enter"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1006
+msgid "Next page"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1042
+msgid "Scroll to top"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1076
+msgid "Select entry"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1081
+msgid "TEST"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1125
+msgid "Open"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1160
+msgid "View"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1165
+msgid "Edit Fields"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1188
+msgid "None"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1248
+msgid "Reference"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1252
+msgid "Request ID"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1256
+msgid "Transaction ID"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1280
+msgid "Form ID"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1286
+msgid "Last Updated"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1296
+msgid "Submitted Fields"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1409
+msgid "Dinheiro"
+msgstr ""
+
+#: src/Admin/EntriesPage.php:1646
+msgid "All"
+msgstr ""
+
+#: src/Admin/GatewaySettingsField.php:36
+msgid "Connect your Backoffice Key to load the available payment methods."
+msgstr ""
+
+#: src/Admin/GatewaySettingsField.php:44
+msgid "Enabled"
+msgstr ""
+
+#: src/Admin/GatewaySettingsField.php:45
+msgid "Default"
+msgstr ""
+
+#: src/Admin/GatewaySettingsField.php:47
+msgid "Account"
+msgstr ""
+
+#: src/Admin/GatewaySettingsField.php:103
+msgid "Default payment method"
+msgstr ""
+
+#: src/Admin/GatewaySettingsField.php:126
+msgid "Activated"
+msgstr ""
+
+#: src/Admin/GatewaySettingsField.php:128
+msgid "Not activated"
+msgstr ""
+
+#: src/Admin/GatewaySettingsField.php:134
+msgid "Request Activation"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:61
+msgid "Payments"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:99
+msgid "Requesting…"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:100
+msgid "Requested"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:101
+msgid "Connecting…"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:129
+msgid "Connect your ifthenpay account and choose which payment methods to offer."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:134
+msgid "Backoffice Key"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:137
+msgid "Connected:"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:141
+msgid "Disconnect"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:145
+msgid "Insert your Backoffice Key here..."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:147
+msgid "Connect"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:157
+msgid "Gateway Key"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:168
+msgid "Payment Methods"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:175
+msgid "Hosted Payment Page"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:178
+msgid "Description"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:190
+msgid "Expiry Days"
+msgstr ""
+
+#: src/Ajax/Controller.php:63
+msgid "Invalid Backoffice Key format."
+msgstr ""
+
+#: src/Ajax/Controller.php:67
+msgid "No Ninja Forms gateway found for this Backoffice Key."
+msgstr ""
+
+#: src/Ajax/Controller.php:90
+msgid "Unknown Gateway Key."
+msgstr ""
+
+#: src/Ajax/Controller.php:200
+msgid "Missing method or Gateway Key."
+msgstr ""
+
+#: src/Ajax/Controller.php:206
+msgid "An activation request for this method was already sent recently."
+msgstr ""
+
+#: src/Ajax/Controller.php:222
+msgid "Could not send the activation request. Please try again."
+msgstr ""
+
+#: src/Ajax/FrontendController.php:50
+msgid "Your session expired. Please reload the page."
+msgstr ""
+
+#: src/Ajax/FrontendController.php:57
+msgid "Missing required parameters."
+msgstr ""
+
+#: src/Ajax/FrontendController.php:61
+msgid "This payment link is not valid."
+msgstr ""
+
+#: src/Gateway/IfthenpayGateway.php:85
+msgid "ifthenpay is not configured yet. Please contact the site administrator."
+msgstr ""
+
+#: src/Gateway/IfthenpayGateway.php:91
+msgid "No ifthenpay payment methods are enabled yet. Please contact the site administrator."
+msgstr ""
+
+#: src/Gateway/IfthenpayGateway.php:97
+msgid "Invalid payment amount."
+msgstr ""
+
+#: src/Gateway/IfthenpayGateway.php:142
+msgid "Unable to start the ifthenpay payment. Please try again."
+msgstr ""
+
+#: src/NinjaForms/AdHocForm.php:129
+msgid "Ad Hoc Payments"
+msgstr ""
+
+#: src/NinjaForms/AdHocForm.php:138
+msgid "Name"
+msgstr ""
+
+#: src/NinjaForms/AdHocForm.php:139
+msgid "Email"
+msgstr ""
+
+#: src/Plugin.php:214
+msgid "OK"
+msgstr ""
+
+#: src/Plugin.php:215
+msgid "Close"
+msgstr ""
+
+#: src/Plugin.php:216
+msgid "Confirming your payment…"
+msgstr ""
+
+#: src/Plugin.php:246
+msgid "Redirecting to secure payment…"
+msgstr ""
+
+#. translators: %d is the Ninja Forms form ID.
+#: src/Plugin.php:276
+#, php-format
+msgid "This form takes ifthenpay payments. The Ninja Forms Gutenberg block cannot process them correctly — it always renders as a Preview, a known Ninja Forms core issue — so it has been disabled here. Please replace this block with the shortcode [ninja_form id=\"%d\"] instead."
+msgstr ""
+
+#: src/Plugin.php:373
+msgid "Payment confirmed"
+msgstr ""
+
+#: src/Plugin.php:375
+msgid "Payment failed"
+msgstr ""
+
+#: src/Plugin.php:377
+msgid "Payment cancelled"
+msgstr ""
+
+#: src/Plugin.php:379
+msgid "Payment link expired"
+msgstr ""
+
+#: src/Plugin.php:381
+msgid "Waiting for payment"
+msgstr ""
+
+#: src/Plugin.php:389
+msgid "Payment confirmed. Thank you!"
+msgstr ""
+
+#: src/Plugin.php:391
+msgid "Payment failed. Please try again."
+msgstr ""
+
+#: src/Plugin.php:393
+msgid "Payment cancelled."
+msgstr ""
+
+#: src/Plugin.php:395
+msgid "This payment link expired."
+msgstr ""
+
+#: src/Plugin.php:399
+msgid "We're waiting for your payment to be confirmed. You don't need to do anything else — this will update automatically once it's complete."
+msgstr ""
